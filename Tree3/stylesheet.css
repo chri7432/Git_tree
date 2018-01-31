@@ -1,0 +1,175 @@
+body {
+  background-image: url(bluesky1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+.kronebund {
+  display: block;
+  margin:  auto;
+position: fixed;
+  width: 100%;
+margin-top: -80%;
+}
+
+.sky{
+  display: block;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  margin-top: -90%;
+  padding: 0;
+}
+
+
+.krone3 {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: -357%;
+  position: relative;
+
+
+}
+
+.overwrapper {
+  width: 100%;
+  background-image: url(tree-trunk4.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  margin-top:45%;
+}
+.wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 22%;
+}
+.title {
+  color: darkgreen;
+  font-family:"Courgette",cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 550%;
+  margin-top: 25%;
+  margin: 0%;
+  text-shadow: 3px 3px 3px black;
+
+}
+img {
+  margin: auto;
+  width: 30%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.apple {
+display: block;
+  position: fixed;
+  float: left;
+  margin-top: -46.3%;
+  margin-left: 18.7%;
+  width: 9%;
+  -webkit-animation: rotation 1.5s infinite linear;
+animation-direction: alternate-reverse;
+}
+@-webkit-keyframes rotation {
+  from {
+  -webkit-transform: rotate(-5deg);
+}
+  to {
+    -webkit-transform: rotate(5deg);
+}
+}
+
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 90%;
+  }
+
+
+.centered1 {
+    position: absolute;
+    top: 30%;
+    left: -40%;
+    transform: translate(-80%, -65%);
+    font-family: "Patua One", cursive;
+    font-weight: bold;
+}
+.centered1 li{
+  display: inline-block;
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    top: 30%;
+    left: -30%;
+    color: white;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 35%;
+  }
+
+
+.centered2 {
+    position: absolute;
+    transform: translate(-9%, 11%);
+    font-family: "Patua One",cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    padding: 0;
+    line-height:0;
+}
+
+.container3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 145%;
+    margin-left: 68%;
+  }
+
+
+.centered3 {
+    position: absolute;
+    top: 30%;
+    left: -30%;
+    transform: rotate(-18deg) translate(84%, 28%);
+    font-family: "Patua One",cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    line-height:0%;
+}
+
+#drage {
+  display: block;
+  width: 280%;
+  margin-top:-180%;
+margin-left: -200%;
+}
+
+#baloon {
+  display: block;
+  float: left;
+  width: 38%;
+  margin-top: -10%;
+  margin-left: -7.5%;
+
+}
+#news {
+  display: block;
+  position:relative;
+  right:0;
+  width: 100%;
+  margin-left: -8%;
+}
